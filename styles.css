@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- NAVBAR ---- */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+.link {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.rightNavContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rightNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nine-dots {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.rightNavContainer img {
+  padding: 8px;
+}
+
+/* ---- LOGO ---- */
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30vh;
+}
+
+/* ---- SEARCH BAR ---- */
+.searchBar {
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+.searchBar input {
+  outline: none;
+  width: 80%;
+  border: none;
+}
+.barContainer {
+  border: 1px solid rgb(223, 223, 223);
+  width: 582px;
+  height: 44px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
